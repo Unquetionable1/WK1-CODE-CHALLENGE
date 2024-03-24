@@ -47,7 +47,7 @@ Git clone [https://github.com/Unquetionable1/WK1-CODE-CHALLENGE](https://github.
 Javascript
 
 ## Support and contact details
-[text](https://github.com/Unquetionable1)
+[https://github.com/Unquetionable1](https://github.com/Unquetionable1)
 
 ### License
 The content of this site is licensed under the MIT license
