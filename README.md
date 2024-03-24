@@ -1,13 +1,13 @@
 # WK1-CODE-CHALLENGE
 
-#### Date, 2024/03/23
+#### Date, 2024/03/2300000
 
 #### By *Edmound Njoori*
 
-## Description
+0## Description
 This are three javascript files.
    #[studentGradeGenerator]
-   #[netsalaryClculaor.js] 
+   #[netsalaryClculaor.js]0 
    #[speedDetector]
 
 
