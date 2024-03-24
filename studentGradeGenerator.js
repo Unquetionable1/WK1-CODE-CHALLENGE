@@ -1,4 +1,4 @@
-const grade=75;
+const grade=prompt('Input grade to be graded');
 function generateGrade(grade){
     if (grade>=0 && grade<=100) {
         return gradeGenerator(grade);
