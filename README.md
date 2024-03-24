@@ -18,7 +18,7 @@ A > 79, B - 60 to 79, C -  49 to 59, D - 40 to 49, E - less 40.
 
 
 [netsalaryClculaor.js] 
-Calculates the net salary fvor people who input their salaries
+Calculates the net salary for people who input their salaries
 
 [speedDetector]
 Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
@@ -47,7 +47,7 @@ Git clone [https://github.com/Unquetionable1/WK1-CODE-CHALLENGE](https://github.
 Javascript
 
 ## Support and contact details
-github.com/
+[text](https://github.com/Unquetionable1)
 
 ### License
 The content of this site is licensed under the MIT license
