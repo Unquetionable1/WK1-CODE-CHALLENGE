@@ -19,12 +19,15 @@ A > 79, B - 60 to 79, C -  49 to 59, D - 40 to 49, E - less 40.
 
 [netsalaryClculaor.js] 
 Calculates the net salary for people who input their salaries
+##### Sources used
+** https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.  
+** https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
 [speedDetector]
 Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
 For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
-
+=>
 
 
 
@@ -52,22 +55,5 @@ Javascript
 ### License
 The content of this site is licensed under the MIT license
 Copyright (c) 2018.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

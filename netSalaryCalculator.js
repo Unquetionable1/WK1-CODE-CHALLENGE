@@ -1,6 +1,6 @@
 const prompt=require('prompt-sync')({sigint:true});
-const basicSalary=prompt('Please input your basic salary so as to calculate your net tax.');
-const benefits=prompt('Please input total sum of your benefits');
+const basicSalary=prompt('Please input your monthly basic salary: ');
+const benefits=prompt('Please input total sum of your benefits: ');
 //caculates gross salary
 salary=Number(basicSalary)+Number(benefits);
 
@@ -8,9 +8,8 @@ salary=Number(basicSalary)+Number(benefits);
 function netCalc(salary){
     //calculate NSSF deduction
     NSSF_Deduction=salary*0.06;
-    //NHIF CALCULATION and PAYE
-    // returns NHIF deductions and PAYE
 
+    //calculates the amount ofv money that is deducted by the NHIF
     if (salary>0 && salary<=5999) {
         NHIF=150
         
@@ -65,6 +64,7 @@ function netCalc(salary){
         
     }
 
+    //calculates the PAYE per month
     if (salary<=24000) {
         PAYE=salary*0.1;
         
@@ -82,11 +82,16 @@ function netCalc(salary){
         
     }
 
+    //calculates the total deductions
     const total_deductions=PAYE+NHIF+NSSF_Deduction;
+    
+    //calculates the net salary
     netsalary=salary-total_deductions;
 
-     // returns the net salary, gross salary,Deduction:NHIF, NSSF,
+     // returns the net salary, gross salary,Deduction:NHIF, NSSF,PAYE
     return `NHIF deduction: ${NHIF} ;This is your net salary: ${netsalary};This is your NSSF Deduction: ${NSSF_Deduction};This is your PAYE deduction: ${PAYE};This is your gross salary: ${salary}`;
    
 }
+
+//shows the output of the net salary, gross salary,Deduction:NHIF, NSSF,PAYE
 console.log(netCalc(salary));
