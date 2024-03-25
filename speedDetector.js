@@ -6,7 +6,7 @@ const speed =prompt('What\'s your speed?');
         return pointsCalc= function(speed){
             let speed = 0;
             if(speed>=70){
-                points = Math.floor((speed - 69) / 5);
+                points = Math.floor((speed - 70) / 5);
             }
             if(points>12){
                 return 'License suspended'
