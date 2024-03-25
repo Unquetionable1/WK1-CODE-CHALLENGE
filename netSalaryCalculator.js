@@ -1,8 +1,9 @@
+const prompt=require('prompt-sync')({sigint:true});
 const basicSalary=prompt('Please input your basic salary so as to calculate your net tax.');
 const benefits=prompt('Please input total sum of your benefits');
 //caculates gross salary
-grossSalary=basicSalary+benefits;
-salary=grossSalary;
+salary=basicSalary+benefits;
+
 
 function netCalc(salary){
     //NHIF CALCULATION
@@ -42,7 +43,7 @@ function netCalc(salary){
     } else   if (salary>=100000) {
         return salary=salary-1700;
     }
-    //NSSFV CALCULATION
+    //NSSF CALCULATION
     salary = salary;
     newsalary=salary*0.06;
     salary=salary-newsalary;
@@ -50,3 +51,4 @@ function netCalc(salary){
     //net salary
     return netsalary
 }
+console.log(netCalc(Number(salary)));
