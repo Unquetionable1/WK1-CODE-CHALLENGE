@@ -9,7 +9,7 @@ function netCalc(salary){
     //calculate NSSF deduction
     NSSF_Deduction=salary*0.06;
 
-    //calculates the amount ofv money that is deducted by the NHIF
+    //calculates the amount of money that is deducted by the NHIF
     if (salary>0 && salary<=5999) {
         NHIF=150
         
@@ -89,7 +89,7 @@ function netCalc(salary){
     netsalary=salary-total_deductions;
 
      // returns the net salary, gross salary,Deduction:NHIF, NSSF,PAYE
-    return `NHIF deduction: ${NHIF} ;This is your net salary: ${netsalary};This is your NSSF Deduction: ${NSSF_Deduction};This is your PAYE deduction: ${PAYE};This is your gross salary: ${salary}`;
+    return `NHIF deduction: ${NHIF}; \nThis is your net salary: ${netsalary};\nThis is your NSSF Deduction: ${NSSF_Deduction};\nThis is your PAYE deduction: ${PAYE};\nThis is your gross salary: ${salary}`;
    
 }
 

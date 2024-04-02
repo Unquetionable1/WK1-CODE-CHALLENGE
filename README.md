@@ -13,6 +13,8 @@ This is a projmect with three solutions for the challenges in the table below:
 | 3|Create a Net Salary Calculator  |
 ```
 
+
+
 ## Project Setup
 
 ### Installation
@@ -21,12 +23,14 @@ You use git clone to be able to download the documents in the GitHub
 
 ### Installation Requirements
 
+Have `*Git*` Installed
+
 ### Installation instruction
 
-Git Clone
+Open your terminal then paste the following on the terminal
 
 ```markdown
-https://github.com/hamida-mstafa/Triangle-tracker.git
+git clone https://github.com/Unquetionable1/WK1-CODE-CHALLENGE.git
 ```
 
 ## LIcense
